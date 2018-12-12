@@ -13,6 +13,7 @@
 		04A4CF1521C0A6CD006BD945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A4CF1421C0A6CD006BD945 /* Assets.xcassets */; };
 		04A4CF1821C0A6CD006BD945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4CF1621C0A6CD006BD945 /* LaunchScreen.storyboard */; };
 		04A4CF1B21C0A6CD006BD945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF1A21C0A6CD006BD945 /* main.m */; };
+		04A4CF2421C0B160006BD945 /* YZPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF2221C0B15F006BD945 /* YZPTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04A4CF1721C0A6CD006BD945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A4CF1921C0A6CD006BD945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A4CF1A21C0A6CD006BD945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A4CF2221C0B15F006BD945 /* YZPTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPTool.m; sourceTree = "<group>"; };
+		04A4CF2321C0B15F006BD945 /* YZPTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPTool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				04A4CF0C21C0A6C6006BD945 /* AppDelegate.m */,
 				04A4CF0E21C0A6C6006BD945 /* ViewController.h */,
 				04A4CF0F21C0A6C6006BD945 /* ViewController.m */,
+				04A4CF2121C0B15F006BD945 /* YZPClass */,
 				04A4CF1121C0A6C6006BD945 /* Main.storyboard */,
 				04A4CF1421C0A6CD006BD945 /* Assets.xcassets */,
 				04A4CF1621C0A6CD006BD945 /* LaunchScreen.storyboard */,
@@ -70,6 +74,15 @@
 			);
 			path = Demo;
 			sourceTree = "<group>";
+		};
+		04A4CF2121C0B15F006BD945 /* YZPClass */ = {
+			isa = PBXGroup;
+			children = (
+				04A4CF2221C0B15F006BD945 /* YZPTool.m */,
+				04A4CF2321C0B15F006BD945 /* YZPTool.h */,
+			);
+			path = YZPClass;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A4CF1021C0A6C6006BD945 /* ViewController.m in Sources */,
+				04A4CF2421C0B160006BD945 /* YZPTool.m in Sources */,
 				04A4CF1B21C0A6CD006BD945 /* main.m in Sources */,
 				04A4CF0D21C0A6C6006BD945 /* AppDelegate.m in Sources */,
 			);
