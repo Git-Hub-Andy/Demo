@@ -225,6 +225,7 @@
 		04A4CFC421C0D11D006BD945 /* GuidePagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePagesView.h; sourceTree = "<group>"; };
 		04A4CFC521C0D11D006BD945 /* GuidePagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePagesHelper.h; sourceTree = "<group>"; };
 		04A4CFC621C0D11D006BD945 /* GuidePagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePagesView.m; sourceTree = "<group>"; };
+		04A4D00A21C0D41C006BD945 /* YZPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPHeader.h; sourceTree = "<group>"; };
 		4A9F617B8DD73AECB4854DA0 /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project/Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		A1020578214CB5F700EB3750 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		A1020579214CB5F700EB3750 /* MineViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MineViewController.mm; sourceTree = "<group>"; };
@@ -350,13 +351,13 @@
 		04A4CF4621C0D11D006BD945 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				04A4CF4921C0D11D006BD945 /* PrefixHeader.pch */,
 				04A4CF4721C0D11D006BD945 /* Macro.h */,
 				04A4CF4821C0D11D006BD945 /* URLHead.h */,
 				04A4CF4A21C0D11D006BD945 /* TheEnumHeader.h */,
 				04A4CF4B21C0D11D006BD945 /* ImageMacro.h */,
 				04A4CF4C21C0D11D006BD945 /* ColorMacro.h */,
 				04A4CF4D21C0D11D006BD945 /* LayoutMacro.h */,
+				04A4D00A21C0D41C006BD945 /* YZPHeader.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -670,6 +671,7 @@
 				A14FBBAF1F78D0C60063B3F7 /* AppDelegate.m */,
 				A14FBBB71F78D0C60063B3F7 /* Assets.xcassets */,
 				A14FBBB91F78D0C60063B3F7 /* LaunchScreen.storyboard */,
+				04A4CF4921C0D11D006BD945 /* PrefixHeader.pch */,
 				A14FBBBC1F78D0C60063B3F7 /* Info.plist */,
 				A14FBBBD1F78D0C60063B3F7 /* main.m */,
 			);
@@ -1074,7 +1076,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWY4P32CNK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YZPClass/Macro/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuiFaKeJi.Project;
@@ -1091,7 +1093,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EWY4P32CNK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/YZPClass/Macro/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuiFaKeJi.Project;

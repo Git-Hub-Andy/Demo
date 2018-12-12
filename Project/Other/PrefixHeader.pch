@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  Project
+//
+//  Created by 袁志浦 on 2017/9/25.
+//  Copyright © 2017年 北京惠发科技有限公司. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YZPHeader.h"
+#endif /* PrefixHeader_pch */

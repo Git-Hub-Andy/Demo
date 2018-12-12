@@ -1,13 +1,15 @@
 //
-//  PrefixHeader.pch
+//  YZPHeader.h
 //  Project
 //
-//  Created by 袁志浦 on 2017/9/25.
-//  Copyright © 2017年 北京惠发科技有限公司. All rights reserved.
+//  Created by WeiLuezh on 2018/12/12.
+//  Copyright © 2018 北京惠发科技有限公司. All rights reserved.
 //
 
-#ifndef PrefixHeader_pch
-#define PrefixHeader_pch
+#ifndef YZPHeader_h
+#define YZPHeader_h
+
+
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
@@ -62,4 +64,6 @@
 #import "YZPBaseCell.h"
 #import "YZPBaseModel.h"
 
-#endif /* PrefixHeader_pch */
+
+
+#endif /* YZPHeader_h */
