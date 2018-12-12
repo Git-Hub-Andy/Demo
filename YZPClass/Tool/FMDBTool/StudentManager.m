@@ -1,0 +1,16 @@
+//
+//  StudentManager.m
+//  FunyAlley
+//
+//  Created by 袁志浦 on 2018/9/15.
+//  Copyright © 2018年 Daniel. All rights reserved.
+//
+
+#import "StudentManager.h"
+
+@implementation StudentManager
+
++ (NSString *)tableName{
+    return @"Student";
+}
+@end

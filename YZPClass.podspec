@@ -12,5 +12,6 @@ s.requires_arc = true
 s.source_files = 'YZPClass/*'
 #s.public_header_files = 'runtime/TFRuntimeManager.h'
 s.ios.dependency 'MBProgressHUD'
+s.ios.dependency 'AFNetworking'
 
 end
