@@ -414,10 +414,10 @@
 		04A4CF6421C0D11D006BD945 /* AdvertiseHelper */ = {
 			isa = PBXGroup;
 			children = (
+				04A4CF6821C0D11D006BD945 /* AdvertiseView.h */,
 				04A4CF6521C0D11D006BD945 /* AdvertiseView.m */,
 				04A4CF6621C0D11D006BD945 /* AdvertiseHelper.m */,
 				04A4CF6721C0D11D006BD945 /* AdvertiseHelper.h */,
-				04A4CF6821C0D11D006BD945 /* AdvertiseView.h */,
 			);
 			path = AdvertiseHelper;
 			sourceTree = "<group>";

@@ -9,8 +9,6 @@
 #ifndef YZPHeader_h
 #define YZPHeader_h
 
-
-
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
@@ -63,7 +61,6 @@
 #import "YZPBaseViewController.h"
 #import "YZPBaseCell.h"
 #import "YZPBaseModel.h"
-
 
 
 #endif /* YZPHeader_h */
