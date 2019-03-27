@@ -32,8 +32,7 @@ s.ios.dependency 'YYCache'
 #  pod 'UMengUShare/Social/QQ'  #集成QQ/QZone/TIM(完整版7.6M)
 #  pod 'UMengUShare/Social/Sina'    #集成新浪微博(完整版25.3M)
 
-
-s.ios.dependency 'WechatOpenSDK' # 集成微信
-s.ios.dependency 'AlipaySDK-2.0' # 集成支付宝
+#s.ios.dependency 'WechatOpenSDK' # 集成微信
+#s.ios.dependency 'AlipaySDK-2.0' # 集成支付宝
 
 end
