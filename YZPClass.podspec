@@ -24,9 +24,9 @@ s.ios.dependency 'Masonry'                #自动布局
 s.ios.dependency 'FMDB'
 s.ios.dependency 'YYCache'
 
-s.ios.dependency 'UMengUShare/Social/ReducedWeChat'    #集成微信(精简版0.2M)
-s.ios.dependency 'UMengUShare/Social/ReducedQQ'  #集成QQ/QZone/TIM(精简版0.5M)
-s.ios.dependency 'UMengUShare/Social/ReducedSina'   #集成新浪微博(精简版1M)
+#s.ios.dependency 'UMengUShare/Social/ReducedWeChat'    #集成微信(精简版0.2M)
+#s.ios.dependency 'UMengUShare/Social/ReducedQQ'  #集成QQ/QZone/TIM(精简版0.5M)
+#s.ios.dependency 'UMengUShare/Social/ReducedSina'   #集成新浪微博(精简版1M)
 
 #  pod 'UMengUShare/Social/WeChat'     #集成微信(完整版14.4M)
 #  pod 'UMengUShare/Social/QQ'  #集成QQ/QZone/TIM(完整版7.6M)
@@ -35,6 +35,5 @@ s.ios.dependency 'UMengUShare/Social/ReducedSina'   #集成新浪微博(精简�
 
 s.ios.dependency 'WechatOpenSDK' # 集成微信
 s.ios.dependency 'AlipaySDK-2.0' # 集成支付宝
-s.ios.dependency 'STPopup'
 
 end
