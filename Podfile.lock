@@ -21,6 +21,7 @@ PODS:
   - FMDB (2.7.2):
     - FMDB/standard (= 2.7.2)
   - FMDB/standard (2.7.2)
+  - IQKeyboardManager (6.2.0)
   - Masonry (1.0.2)
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
@@ -30,6 +31,7 @@ PODS:
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
   - STPopup (1.8.3)
+  - SVProgressHUD (2.2.5)
   - TZImagePickerController (1.7.9)
   - "UITableView+FDTemplateLayoutCell (1.4)"
   - UMengUShare/Core (6.4.2):
@@ -41,9 +43,6 @@ PODS:
     - UMengUShare/Core
   - UMengUShare/Social/ReducedWeChat (6.4.2):
     - UMengUShare/Core
-  - WCDB (1.0.6):
-    - WCDB/sqlcipher (= 1.0.6)
-  - WCDB/sqlcipher (1.0.6)
   - WechatOpenSDK (1.8.2)
   - YYCache (1.0.4)
 
@@ -52,18 +51,19 @@ DEPENDENCIES:
   - AlipaySDK-2.0
   - FDFullscreenPopGesture
   - FMDB
+  - IQKeyboardManager
   - Masonry
   - MJExtension
   - MJRefresh
   - SDCycleScrollView
   - SDWebImage
   - STPopup
+  - SVProgressHUD
   - TZImagePickerController
   - "UITableView+FDTemplateLayoutCell"
   - UMengUShare/Social/ReducedQQ
   - UMengUShare/Social/ReducedSina
   - UMengUShare/Social/ReducedWeChat
-  - WCDB
   - WechatOpenSDK
   - YYCache
 
@@ -73,16 +73,17 @@ SPEC REPOS:
     - AlipaySDK-2.0
     - FDFullscreenPopGesture
     - FMDB
+    - IQKeyboardManager
     - Masonry
     - MJExtension
     - MJRefresh
     - SDCycleScrollView
     - SDWebImage
     - STPopup
+    - SVProgressHUD
     - TZImagePickerController
     - "UITableView+FDTemplateLayoutCell"
     - UMengUShare
-    - WCDB
     - WechatOpenSDK
     - YYCache
 
@@ -91,19 +92,20 @@ SPEC CHECKSUMS:
   AlipaySDK-2.0: 346e006fd2999d5ca5dd8869d03bc0a260fc48e0
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   STPopup: da1167250a01584af7bcccb898653185f223ec46
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: 0a8ff228d287ebdd7d485e8c42a2a932894f1fba
   "UITableView+FDTemplateLayoutCell": 234e1582bcc4e18461af91155123bb96538ed030
   UMengUShare: 740664d1dd5cc2fb2cc3325d61e4b35539aa9c78
-  WCDB: 4d2926bf695b2e00d785b50afd32c2dcc8cbbd98
   WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: d7a8f20c9ac813a3e58cf36c7aac51067e8b88e6
+PODFILE CHECKSUM: 2bd27b9e0d2a28d8ecfb769e35f1593199ee026b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.beta.1

@@ -33,8 +33,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = [[MainTabBarController alloc] init];
 
-    [TeacherManager getDB];
-    [StudentManager getDB];
+    
     
 //    [NetWork startWorkReachability];
     [self.window makeKeyAndVisible];

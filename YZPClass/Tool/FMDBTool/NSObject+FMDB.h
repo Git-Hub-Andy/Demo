@@ -11,6 +11,7 @@
 #define DBPATH [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES)[0] stringByAppendingPathComponent:DBNAME]
 
 #import <Foundation/Foundation.h>
+#import "NSObject+FMDBSQL.h"
 
 @interface NSObject (FMDB)
 

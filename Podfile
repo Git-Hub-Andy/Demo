@@ -12,8 +12,10 @@ target 'Project' do
   pod 'FDFullscreenPopGesture' #全屏侧滑返回
   pod 'Masonry'                #自动布局
   pod 'FMDB'
-  pod 'WCDB'
   pod 'YYCache'
+  pod 'IQKeyboardManager'
+  pod 'SVProgressHUD'
+
   
   pod 'UMengUShare/Social/ReducedWeChat'    #集成微信(精简版0.2M)
 #  pod 'UMengUShare/Social/WeChat'     #集成微信(完整版14.4M)
