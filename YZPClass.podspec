@@ -16,13 +16,14 @@ s.public_header_files = 'YZPClass/YZPHeader.h'
 s.subspec 'Foundation+' do |ss|
 ss.ios.deployment_target = '9.0'
 ss.source_files = 'YZPClass/*{h,m}'
-#包含Classes/Foundation+目录下的所有.h .m文件
+#包含Classes目录下的所有.h .m文件(多个目录用,分割)
+#'Classes/**/*.{h,m}'
 ss.source_files = 'YZPClass/Foundation+**/*.{h,m}'
 end
 
 s.subspec 'BaseClass' do |ss|
 ss.ios.deployment_target = '9.0'
-ss.source_files = 'YZPClass/*{h,m}'
+ss.source_files = 'YZPClass/BaseClass/M/**/*{h,m}','YZPClass/BaseClass/V/**/*{h,m}','YZPClass/BaseClass/C/**/*{h,m}'
 end
 
 
