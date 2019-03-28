@@ -1,21 +1,23 @@
 Pod::Spec.new do |s|
 s.name         = "YZPClass"
-s.version      = "1.0.4"
+s.version      = "1.0.5"
 s.platform     = :ios, "9.0"
 s.summary      = "简介"
 s.homepage     = "https://github.com/Git-Hub-Andy/Demo.git"
 s.social_media_url = 'https://github.com/Git-Hub-Andy'
 s.license      = "MIT"
 s.author       = { "Andy" => "996901186@qq.com" }
-s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.4"}
+s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.5"}
 s.requires_arc = true
-s.source_files = 'YZPClass/*'
+s.source_files = 'YZPClass/YZPHeader.h'
 s.public_header_files = 'YZPClass/YZPHeader.h'
 
 
 s.subspec 'Foundation+' do |ss|
 ss.ios.deployment_target = '9.0'
 ss.source_files = 'YZPClass/*{h,m}'
+#包含Classes/Foundation+目录下的所有.h .m文件
+ss.source_files = 'YZPClass/Foundation+**/*.{h,m}'
 end
 
 s.subspec 'BaseClass' do |ss|
