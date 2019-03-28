@@ -18,6 +18,10 @@ ss.ios.deployment_target = '9.0'
 ss.source_files = 'YZPClass/*'
 end
 
+s.subspec 'BaseClass' do |ss|
+ss.ios.deployment_target = '9.0'
+ss.source_files = 'YZPClass/*'
+end
 
 
 s.ios.dependency 'AFNetworking'
