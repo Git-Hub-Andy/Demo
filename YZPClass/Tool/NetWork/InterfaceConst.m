@@ -9,10 +9,9 @@
 #import "InterfaceConst.h"
 
 #if   TestSever
-NSString *const TheDomainName = @"http://192.168.10.10:8080";
+NSString *const TheDomainName = @"https://yunwei.weiluezh.com";
 #elif DevelopSever
 
 #elif ProductSever
 
 #endif
-

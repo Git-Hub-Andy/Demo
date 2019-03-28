@@ -473,12 +473,12 @@
 		04A4CF7F21C0D11D006BD945 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				04A4CF8021C0D11D006BD945 /* Network.m */,
-				04A4CF8121C0D11D006BD945 /* NetworkCache.m */,
-				04A4CF8221C0D11D006BD945 /* InterfaceConst.h */,
-				04A4CF8321C0D11D006BD945 /* Network.h */,
-				04A4CF8421C0D11D006BD945 /* InterfaceConst.m */,
 				04A4CF8521C0D11D006BD945 /* NetworkCache.h */,
+				04A4CF8121C0D11D006BD945 /* NetworkCache.m */,
+				04A4CF8321C0D11D006BD945 /* Network.h */,
+				04A4CF8021C0D11D006BD945 /* Network.m */,
+				04A4CF8221C0D11D006BD945 /* InterfaceConst.h */,
+				04A4CF8421C0D11D006BD945 /* InterfaceConst.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";

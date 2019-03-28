@@ -15,12 +15,12 @@ s.public_header_files = 'YZPClass/YZPHeader.h'
 
 s.subspec 'Foundation+' do |ss|
 ss.ios.deployment_target = '9.0'
-ss.source_files = 'YZPClass/*'
+ss.source_files = 'YZPClass/*{h,m}'
 end
 
 s.subspec 'BaseClass' do |ss|
 ss.ios.deployment_target = '9.0'
-ss.source_files = 'YZPClass/*'
+ss.source_files = 'YZPClass/*{h,m}'
 end
 
 
