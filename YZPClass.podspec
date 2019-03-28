@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
 s.name         = "YZPClass"
-s.version      = "1.0.0"
+s.version      = "1.0.1"
 s.platform     = :ios, "9.0"
 s.summary      = "简介"
 s.homepage     = "https://github.com/Git-Hub-Andy/Demo.git"
 s.social_media_url = 'https://github.com/Git-Hub-Andy'
 s.license      = "MIT"
 s.author       = { "Andy" => "996901186@qq.com" }
-s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.0"}
+s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.1"}
 s.requires_arc = true
 s.source_files = 'YZPClass/*'
-s.ios.dependency 'MBProgressHUD'
+
 s.ios.dependency 'AFNetworking'
 s.ios.dependency 'MJExtension'
 s.ios.dependency 'UITableView+FDTemplateLayoutCell'
@@ -23,6 +23,8 @@ s.ios.dependency 'FDFullscreenPopGesture' #全屏侧滑返回
 s.ios.dependency 'Masonry'                #自动布局
 s.ios.dependency 'FMDB'
 s.ios.dependency 'YYCache'
+s.ios.dependency 'IQKeyboardManager'
+s.ios.dependency 'SVProgressHUD'
 
 #s.ios.dependency 'UMengUShare/Social/ReducedWeChat'    #集成微信(精简版0.2M)
 #s.ios.dependency 'UMengUShare/Social/ReducedQQ'  #集成QQ/QZone/TIM(精简版0.5M)
