@@ -10,16 +10,16 @@
 
 @implementation NSUserDefaults (Category)
 
-+ (void)setObject:(nullable id)value forKey:(NSString *)defaultName{
++ (void)setObject:(nullable id)value forKey:(NSString * _Nullable )defaultName{
     [[NSUserDefaults standardUserDefaults] setObject:value forKey:defaultName];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-+ (nullable id)objectForKey:(NSString *)defaultName{
++ (nullable id)objectForKey:(NSString * _Nullable )defaultName{
     return [[NSUserDefaults standardUserDefaults] objectForKey:defaultName];
 }
 
-+ (void)removeObjectForKey:(NSString *)defaultName{
++ (void)removeObjectForKey:(NSString * _Nullable )defaultName{
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:defaultName];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }

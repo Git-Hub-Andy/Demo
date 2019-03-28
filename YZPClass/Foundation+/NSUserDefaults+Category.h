@@ -10,11 +10,11 @@
 
 @interface NSUserDefaults (Category)
 
-+ (void)setObject:(nullable id)value forKey:(NSString *)defaultName;
++ (void)setObject:(nullable id)value forKey:(NSString *_Nullable)defaultName;
 
-+ (nullable id)objectForKey:(NSString *)defaultName;
++ (nullable id)objectForKey:(NSString *_Nullable)defaultName;
 
-+ (void)removeObjectForKey:(NSString *)defaultName;
++ (void)removeObjectForKey:(NSString *_Nullable)defaultName;
 
 + (void)removeAllObject;
 

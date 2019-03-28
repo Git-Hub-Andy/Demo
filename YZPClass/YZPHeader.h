@@ -15,7 +15,6 @@
 #pragma mark - CocoaPod
 #import "AFNetworking.h"
 #import "MJExtension.h"
-#import "MJRefresh.h"
 #import "SDCycleScrollView-umbrella.h"
 #import "SDWebImage-umbrella.h"
 #import "TZImagePickerController-umbrella.h"

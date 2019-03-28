@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "YZPBaseTableView.h"
+
+#import "MJRefresh.h"
 
 @interface YZPBaseViewController : UIViewController
 
@@ -18,19 +19,15 @@
 
 @property (nonatomic, strong) UIColor *naviBarCustomLine_color;
 
-@property (nonatomic, weak, readonly) AppDelegate *appDelegate;
-
 @property (nonatomic, strong) NSMutableArray *dataSourceArray;
 
-@property (nonatomic, strong) YZPBaseTableView *tableView;
+@property (nonatomic, strong) UITableView *tableView;
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, strong) UIScrollView *scrollView;
 
-@property (nonatomic, strong) NSString *urlString;
-
-@property (nonatomic, strong) NSArray *placeholderArray;
+@property (nonatomic, copy) NSString *urlString;
 
 @property (nonatomic, strong) MJRefreshNormalHeader *refreshHeader; //下拉刷新
 
@@ -72,9 +69,6 @@
 
 ///停止刷新
 - (void)endRefreshing;
-
-//创建tableView
-- (void)setupTableView:(UITableViewStyle)style;
 
 //点击某个按钮执行的事件（确定/删除/完成）
 - (void)handleComplete:(UIButton *)sender;

@@ -8,9 +8,7 @@
 
 #define NetWorkErrorFooterString @"点击或拖拽重试"
 
-
 #import "YZPBaseViewController.h"
-#import "NetWork.h"
 
 @interface YZPBaseViewController ()<UITableViewDataSource, UITableViewDelegate, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UICollectionViewDelegate, UIGestureRecognizerDelegate>
 
@@ -141,19 +139,6 @@
     
 }
 
-//创建tableView
-- (void)setupTableView:(UITableViewStyle)style{
-    self.tableView = [[YZPBaseTableView alloc]initWithFrame:self.view.bounds style:style];
-    CGRect headerRect = (style == UITableViewStylePlain) ? CGRectZero : CGRectMake(0, 0, _tableView.mj_w, 0.001);
-    _tableView.tableHeaderView = [[UIView alloc] initWithFrame:headerRect];
-    _tableView.tableFooterView = [[UIView alloc] initWithFrame:headerRect];
-    _tableView.delegate = self;
-    _tableView.dataSource = self;
-    _tableView.backgroundColor = [UIColor whiteColor];
-    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"UITableViewCell"];
-}
-
 
 #pragma mark - handle action
 //列表数据网络请求(供子类重写)
@@ -257,9 +242,9 @@
     return _dataSourceArray;
 }
 
-- (YZPBaseTableView *)tableView{
+- (UITableView *)tableView{
     if (!_tableView){
-        _tableView = [[YZPBaseTableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
         _tableView.backgroundColor = [UIColor whiteColor];
         _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
         _tableView.delegate = self;
@@ -325,10 +310,6 @@
     [self.refreshHeader endRefreshing];
     [self.refreshFooter endRefreshing];
 //    ((UIScrollView *)self.refreshHeader.superview).scrollEnabled = YES;
-}
-
-- (AppDelegate *)appDelegate{
-    return [AppDelegate sharedAppDelegate];
 }
 
 #pragma mark - KeyBoard

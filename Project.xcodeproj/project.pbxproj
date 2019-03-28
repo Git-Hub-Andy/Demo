@@ -17,7 +17,6 @@
 		04A4CFCE21C0D11D006BD945 /* YZPBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3721C0D11D006BD945 /* YZPBaseNavViewController.m */; };
 		04A4CFCF21C0D11D006BD945 /* YZPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3B21C0D11D006BD945 /* YZPBaseViewController.m */; };
 		04A4CFD021C0D11D006BD945 /* YZPBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3D21C0D11D006BD945 /* YZPBaseCollectionCell.m */; };
-		04A4CFD121C0D11D006BD945 /* YZPBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF4121C0D11D006BD945 /* YZPBaseTableView.m */; };
 		04A4CFD221C0D11D006BD945 /* YZPBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF4221C0D11D006BD945 /* YZPBaseCell.m */; };
 		04A4CFD321C0D11D006BD945 /* AppDelegate+VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF4521C0D11D006BD945 /* AppDelegate+VC.m */; };
 		04A4CFD421C0D11D006BD945 /* UIView+SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5021C0D11D006BD945 /* UIView+SubView.m */; };
@@ -112,9 +111,7 @@
 		04A4CF3B21C0D11D006BD945 /* YZPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseViewController.m; sourceTree = "<group>"; };
 		04A4CF3D21C0D11D006BD945 /* YZPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCollectionCell.m; sourceTree = "<group>"; };
 		04A4CF3E21C0D11D006BD945 /* YZPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseCell.h; sourceTree = "<group>"; };
-		04A4CF3F21C0D11D006BD945 /* YZPBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseTableView.h; sourceTree = "<group>"; };
 		04A4CF4021C0D11D006BD945 /* YZPBaseCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseCollectionCell.h; sourceTree = "<group>"; };
-		04A4CF4121C0D11D006BD945 /* YZPBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseTableView.m; sourceTree = "<group>"; };
 		04A4CF4221C0D11D006BD945 /* YZPBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCell.m; sourceTree = "<group>"; };
 		04A4CF4421C0D11D006BD945 /* AppDelegate+VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+VC.h"; sourceTree = "<group>"; };
 		04A4CF4521C0D11D006BD945 /* AppDelegate+VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+VC.m"; sourceTree = "<group>"; };
@@ -270,10 +267,10 @@
 			children = (
 				6A6E09AD224B8A2F002A9013 /* YZPHeader.h */,
 				04A4CF2621C0D11D006BD945 /* Foundation+ */,
+				04A4CF4E21C0D11D006BD945 /* UIKit+ */,
 				04A4CF3121C0D11D006BD945 /* BaseClass */,
 				04A4CF4321C0D11D006BD945 /* AppDelegate+ */,
 				04A4CF4621C0D11D006BD945 /* Macro */,
-				04A4CF4E21C0D11D006BD945 /* UIKit+ */,
 				04A4CF6321C0D11D006BD945 /* Tool */,
 			);
 			path = YZPClass;
@@ -318,11 +315,11 @@
 		04A4CF3521C0D11D006BD945 /* C */ = {
 			isa = PBXGroup;
 			children = (
+				04A4CF3A21C0D11D006BD945 /* YZPBaseWebViewController.h */,
 				04A4CF3621C0D11D006BD945 /* YZPBaseWebViewController.m */,
+				04A4CF3921C0D11D006BD945 /* YZPBaseNavViewController.h */,
 				04A4CF3721C0D11D006BD945 /* YZPBaseNavViewController.m */,
 				04A4CF3821C0D11D006BD945 /* YZPBaseViewController.h */,
-				04A4CF3921C0D11D006BD945 /* YZPBaseNavViewController.h */,
-				04A4CF3A21C0D11D006BD945 /* YZPBaseWebViewController.h */,
 				04A4CF3B21C0D11D006BD945 /* YZPBaseViewController.m */,
 			);
 			path = C;
@@ -331,11 +328,9 @@
 		04A4CF3C21C0D11D006BD945 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				04A4CF4021C0D11D006BD945 /* YZPBaseCollectionCell.h */,
 				04A4CF3D21C0D11D006BD945 /* YZPBaseCollectionCell.m */,
 				04A4CF3E21C0D11D006BD945 /* YZPBaseCell.h */,
-				04A4CF3F21C0D11D006BD945 /* YZPBaseTableView.h */,
-				04A4CF4021C0D11D006BD945 /* YZPBaseCollectionCell.h */,
-				04A4CF4121C0D11D006BD945 /* YZPBaseTableView.m */,
 				04A4CF4221C0D11D006BD945 /* YZPBaseCell.m */,
 			);
 			path = V;
@@ -922,7 +917,6 @@
 				04A4CFD421C0D11D006BD945 /* UIView+SubView.m in Sources */,
 				04A4CFF621C0D11D006BD945 /* Extend_Description.m in Sources */,
 				04A4CFD021C0D11D006BD945 /* YZPBaseCollectionCell.m in Sources */,
-				04A4CFD121C0D11D006BD945 /* YZPBaseTableView.m in Sources */,
 				04A4CFD921C0D11D006BD945 /* UIView+FontSize.m in Sources */,
 				04A4CFFC21C0D11D006BD945 /* SDBrowserImageView.m in Sources */,
 				04A4CFF421C0D11D006BD945 /* SheetView.m in Sources */,
