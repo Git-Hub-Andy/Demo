@@ -10,6 +10,15 @@ s.author       = { "Andy" => "996901186@qq.com" }
 s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.1"}
 s.requires_arc = true
 s.source_files = 'YZPClass/*'
+s.public_header_files = 'YZPClass/YZPHeader.h'
+
+
+s.subspec 'Foundation+' do |ss|
+ss.ios.deployment_target = '9.0'
+ss.source_files = 'YZPClass/*'
+end
+
+
 
 s.ios.dependency 'AFNetworking'
 s.ios.dependency 'MJExtension'
