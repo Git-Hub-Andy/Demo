@@ -41,5 +41,4 @@
 #define iPhone4  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
 //=======================判断设备类型=======================
 
-
 #endif /* LayoutMacro_h */

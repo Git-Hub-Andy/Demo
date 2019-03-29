@@ -434,7 +434,7 @@ static void *toastViewKey   = &toastViewKey;
             [self bringSubviewToFront:lineView];
             
             
-            lineView.frame = CGRectMake(leftLayoutNum, 0, width, self.mj_h);
+            lineView.frame = CGRectMake(leftLayoutNum, 0, width, CGRectGetHeight(self.frame));
         }
         
         return;
@@ -485,7 +485,7 @@ static void *toastViewKey   = &toastViewKey;
             [self addSubview:lineView];
             [self bringSubviewToFront:lineView];
             
-            lineView.frame = CGRectMake(leftLayoutNum, 0, width, self.mj_h);
+            lineView.frame = CGRectMake(leftLayoutNum, 0, width, CGRectGetHeight(self.frame));
         }
         
         return;
@@ -572,7 +572,7 @@ static void *toastViewKey   = &toastViewKey;
             [self addSubview:lineView];
             [self bringSubviewToFront:lineView];
             
-            lineView.frame = CGRectMake(0, self.mj_h + bottomLayoutNum - height, self.mj_w, height);
+            lineView.frame = CGRectMake(0, CGRectGetHeight(self.frame) + bottomLayoutNum - height, CGRectGetWidth(self.frame), height);
         }
         
         return;
