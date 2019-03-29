@@ -66,8 +66,8 @@
     [super viewDidLoad];
     self.title = @"你好";
     
-    NSLOG(@"%@",@"测试");
-    NSLOG(@"测试");
+    NSLog(@"%@",@"测试");
+    NSLog(@"测试");
     
     [self C];
 //    _v = [[UIView alloc] init];

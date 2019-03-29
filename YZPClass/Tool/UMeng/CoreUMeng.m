@@ -37,9 +37,9 @@
     
     [[UMSocialManager defaultManager] getUserInfoWithPlatform:loginType currentViewController:vc completion:^(id result, NSError *error) {
         UMSocialUserInfoResponse *userInfo =result;
-        NSLOG(@"%@",userInfo.originalResponse);
+        NSLog(@"%@",userInfo.originalResponse);
         NSString *message = [NSString stringWithFormat:@"openid:%@\n name: %@\n icon: %@\n gender: %@\n",userInfo.openid,userInfo.name,userInfo.iconurl,userInfo.gender];
-        NSLOG(@"%@",message);
+        NSLog(@"%@",message);
         
         if(!error){
             resBlock(userInfo,loginType);
@@ -53,7 +53,7 @@
     [[UMSocialManager defaultManager] cancelAuthWithPlatform:platForm completion:^(id result, NSError *error) {
         UMSocialUserInfoResponse *userinfo =result;
         NSString *message = [NSString stringWithFormat:@"name: %@\n icon: %@\n gender: %@\n",userinfo.name,userinfo.iconurl,userinfo.gender];
-        NSLOG(@"%@",message);
+        NSLog(@"%@",message);
         if (!error) {
             resBlock(userinfo,platForm);
         }

@@ -328,11 +328,11 @@ static AFHTTPSessionManager *_sessionManager;
 }
 
 + (void)logSuccess:(NSString *)url parameters:(NSDictionary *)parameters responseString:(NSString *)responseString{
-    NSLOG(@"%@\n%@\n%@",url, parameters,responseString);
+    NSLog(@"%@\n%@\n%@",url, parameters,responseString);
 }
 
 + (void)logError:(NSString *)url parameters:(NSDictionary *)parameters error:(NSError *)error{
-    NSLOG(@"%@\n%@\n%@",url, parameters,error);
+    NSLog(@"%@\n%@\n%@",url, parameters,error);
 }
 
 
