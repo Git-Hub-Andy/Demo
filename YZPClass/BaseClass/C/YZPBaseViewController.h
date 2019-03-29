@@ -10,7 +10,7 @@
 
 #import <AFNetworking/AFNetworking.h>
 #import <MJRefresh/MJRefresh.h>
-#import <UINavigationController+FDFullscreenPopGesture.h>
+#import "UINavigationController+FDFullscreenPopGesture.h"
 
 #import "Macro.h"
 #import "ImageMacro.h"
