@@ -329,6 +329,8 @@
 		04A4CF4321C0D11D006BD945 /* AppDelegate+ */ = {
 			isa = PBXGroup;
 			children = (
+				A14FBBAE1F78D0C60063B3F7 /* AppDelegate.h */,
+				A14FBBAF1F78D0C60063B3F7 /* AppDelegate.m */,
 				04A4CF4421C0D11D006BD945 /* AppDelegate+VC.h */,
 				04A4CF4521C0D11D006BD945 /* AppDelegate+VC.m */,
 			);
@@ -650,8 +652,6 @@
 		A14FBBDC1F78D3E00063B3F7 /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A14FBBAE1F78D0C60063B3F7 /* AppDelegate.h */,
-				A14FBBAF1F78D0C60063B3F7 /* AppDelegate.m */,
 				A14FBBB71F78D0C60063B3F7 /* Assets.xcassets */,
 				A14FBBB91F78D0C60063B3F7 /* LaunchScreen.storyboard */,
 				04A4CF4921C0D11D006BD945 /* PrefixHeader.pch */,
