@@ -96,7 +96,7 @@
     self.naviBarSystemLine_hidden = YES;
     self.naviBarCustomLine_hidden = NO;
     
-    self.fd_interactivePopDisabled = YES;  //全屏侧滑设置
+//    self.fd_interactivePopDisabled = YES;  //全屏侧滑设置
     
     //self.edgesForExtendedLayout = UIRectEdgeNone;
     //self.extendedLayoutIncludesOpaqueBars = YES;
