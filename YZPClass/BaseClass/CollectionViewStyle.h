@@ -6,7 +6,6 @@
 //  Copyright © 2018年 北京惠发科技有限公司. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 @interface CollectionViewStyle : NSObject
