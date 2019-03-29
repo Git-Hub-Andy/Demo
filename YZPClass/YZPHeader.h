@@ -15,7 +15,6 @@
 
 //
 //#pragma mark - CocoaPod
-#import "AFNetworking.h"
 #import "MJExtension.h"
 //#import "SDCycleScrollView-umbrella.h"
 //#import "SDWebImage-umbrella.h"

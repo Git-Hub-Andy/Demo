@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import "UINavigationController+FDFullscreenPopGesture.h"
-#import "MJRefresh.h"
+#import <AFNetworking/AFNetworking.h>
+#import <MJRefresh/MJRefresh.h>
+#import <UINavigationController+FDFullscreenPopGesture.h>
+
 #import "Macro.h"
 #import "ImageMacro.h"
 

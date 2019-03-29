@@ -21,6 +21,7 @@
 @implementation YZPBaseWebViewController
 
 - (void)dealloc{
+    
     [_webView.configuration.userContentController removeScriptMessageHandlerForName:@"clickUser"];
 }
 
@@ -40,7 +41,7 @@
     configuration.userContentController = _userContentController;
     
     //WebView
-    _webView = [[WKWebView alloc]initWithFrame:self.view.bounds configuration:configuration];
+//    _webView = [[WKWebView alloc]initWithFrame:self.view.bounds configuration:configuration];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     //    NSString *str = [NSString stringWithFormat:@"%@index.html?token=%@",H5HTTPHEADER,[[NSUserDefaults standardUserDefaults] objectForKey:@"Token"]];
