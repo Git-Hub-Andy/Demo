@@ -26,25 +26,41 @@
     NSString *appName = @"PPP";
     NSString *url = [NSString stringWithFormat:@"iosamap://navi?sourceApplication=%@&backScheme=%@&lat=%f&lon=%f&dev=0&style=2",appName,urlScheme,coordinate.latitude, coordinate.longitude];
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    if (@available(iOS 10.0, *)) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 + (void)toBaiDuMap:(CLLocationCoordinate2D)coordinate{
     
     NSString *url = [NSString stringWithFormat:@"baidumap://map/direction?origin={{我的位置}}&destination=latlng:%f,%f|name=目的地&mode=driving&coord_type=gcj02",coordinate.latitude, coordinate.longitude];
 
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    if (@available(iOS 10.0, *)) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 + (void)toTencentMap:(CLLocationCoordinate2D)coordinate{
     
     NSString *url = [NSString stringWithFormat:@"qqmap://map/routeplan?type=drive&fromcoord=CurrentLocation&tocoord=%f,%f&coord_type=1&policy=0",coordinate.latitude, coordinate.longitude];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    if (@available(iOS 10.0, *)) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 + (void)toGoogleMap:(CLLocationCoordinate2D)coordinate{
     NSString *url = [NSString stringWithFormat:@"comgooglemaps://?x-source=%@&x-success=%@&saddr=&daddr=%f,%f&directionsmode=driving",@"appName",@"urlScheme",coordinate.latitude, coordinate.longitude];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    if (@available(iOS 10.0, *)) {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url.encodedString] options:@{} completionHandler:^(BOOL success) {}];
+    } else {
+        // Fallback on earlier versions
+    }
 }
 
 @end
