@@ -8,8 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <AFNetworking/AFNetworking.h>
 #import "NetworkCache.h"
-#import "AFNetworkActivityIndicatorManager.h"
+
 
 typedef NS_ENUM(NSUInteger, NetworkStatus) {
     /// 未知网络
