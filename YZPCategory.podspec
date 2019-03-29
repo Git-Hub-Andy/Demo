@@ -40,7 +40,6 @@ Pod::Spec.new do |s|
   s.ios.dependency 'SDCycleScrollView'
   s.ios.dependency 'FDFullscreenPopGesture'
   s.ios.dependency 'Masonry'
-  s.ios.dependency 'FMDB'
   s.ios.dependency 'YYCache'
   s.ios.dependency 'IQKeyboardManager'
   s.ios.dependency 'SVProgressHUD'
