@@ -556,19 +556,14 @@ static void *toastViewKey   = &toastViewKey;
     
     CGFloat bottomLayoutNum = 0;
     
-    if (style == LineLayoutStyleMiddle)
-    {
+    if (style == LineLayoutStyleMiddle){
         bottomLayoutNum = height / 2.0;
-    }
-    else if (style == LineLayoutStyleOutside)
-    {
+    }else if (style == LineLayoutStyleOutside){
         bottomLayoutNum = height;
     }
     
-    if ([self isKindOfClass:[UIScrollView class]])
-    {
-        if (self.frame.size.height != 0 && self.frame.size.height != 0)
-        {
+    if ([self isKindOfClass:[UIScrollView class]]){
+        if (self.frame.size.height != 0 && self.frame.size.height != 0){
             [self addSubview:lineView];
             [self bringSubviewToFront:lineView];
             
