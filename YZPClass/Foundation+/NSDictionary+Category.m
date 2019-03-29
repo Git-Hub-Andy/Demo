@@ -20,7 +20,8 @@
     if (emObject && key) {
         [self em_setObject:emObject forKey:key];
     }else{
-        NSString * string = [NSString stringWithFormat:@"%@ is nil ",key];
+        NSString *string = [NSString stringWithFormat:@"%@ is nil ",key];
+        NSLog(@"%@ is nil ",key);
         NSAssert(emObject, string);
         //如果第一个参数不满足条件,就会记录和打印第二个参数
     }

@@ -1,5 +1,5 @@
 //
-//  SweepViewController.h
+//  AppDelegate.h
 //  Project
 //
 //  Created by 袁志浦 on 2017/9/25.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SweepViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
+

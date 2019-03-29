@@ -8,13 +8,6 @@
 
 #import "MainTabBarController.h"
 
-#import "HomeViewController.h"
-#import "SweepViewController.h"
-#import "MineViewController.h"
-#import "SDTableViewController.h"
-
-#import "AppDelegate+VC.h"
-
 @interface MainTabBarController ()<UITabBarControllerDelegate>
 
 @property(nonatomic,strong)UIButton *centerButton;
@@ -48,17 +41,17 @@
 
 - (void)initTabbar{
 
-    HomeViewController *homeVC = [[HomeViewController alloc] init];
-    [self addChildViewControlWithTitle:@"首页" control:homeVC image:@"" selectedImage:@"" itemTag:0];
-    
-    UIViewController *noVC = [[UIViewController alloc] init];
-    [self addChildViewControlWithTitle:@"扫一扫" control:noVC image:@"" selectedImage:@"" itemTag:1];
-
-    MineViewController *userVC = [[MineViewController alloc] init];
-    [self addChildViewControlWithTitle:@"我的" control:userVC image:@"" selectedImage:@"" itemTag:2];
-
-    SDTableViewController *vc = [[SDTableViewController alloc] init];
-    [self addChildViewControlWithTitle:@"SD" control:vc image:@"" selectedImage:@"" itemTag:3];
+//    HomeViewController *homeVC = [[HomeViewController alloc] init];
+//    [self addChildViewControlWithTitle:@"首页" control:homeVC image:@"" selectedImage:@"" itemTag:0];
+//
+//    UIViewController *noVC = [[UIViewController alloc] init];
+//    [self addChildViewControlWithTitle:@"扫一扫" control:noVC image:@"" selectedImage:@"" itemTag:1];
+//
+//    MineViewController *userVC = [[MineViewController alloc] init];
+//    [self addChildViewControlWithTitle:@"我的" control:userVC image:@"" selectedImage:@"" itemTag:2];
+//
+//    SDTableViewController *vc = [[SDTableViewController alloc] init];
+//    [self addChildViewControlWithTitle:@"SD" control:vc image:@"" selectedImage:@"" itemTag:3];
 
     
 }
@@ -73,12 +66,12 @@
 
 - (void)onLiveButtonClicked{
     //在实际项目中进行更改
-    UITabBarController *tabBarController = (UITabBarController *)MainWindow.rootViewController;
-    UINavigationController *nav = (UINavigationController*)tabBarController.selectedViewController;
-    
-    UIViewController * fatherVC = nav.viewControllers[0];
-    SweepViewController *publishVC = [[SweepViewController alloc] init];
-    [fatherVC presentViewController:publishVC animated:YES completion:^{}];
+//    UITabBarController *tabBarController = (UITabBarController *)MainWindow.rootViewController;
+//    UINavigationController *nav = (UINavigationController*)tabBarController.selectedViewController;
+//    
+//    UIViewController * fatherVC = nav.viewControllers[0];
+//    SweepViewController *publishVC = [[SweepViewController alloc] init];
+//    [fatherVC presentViewController:publishVC animated:YES completion:^{}];
     
 }
 
