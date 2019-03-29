@@ -18,7 +18,7 @@ static char bottomNameKey;
 static char leftNameKey;
 
 //objc_setAssociatedObject是一个C语言函数，这个函数被称之为“关联API”，它的作用是把top、right、bottom、left这四个从外界获取到的值与本类(self)关联起来，然后设置一个static char作为能够找到他们的Key
-- (void) setEnlargeEdgeWithTop:(CGFloat) top right:(CGFloat) right bottom:(CGFloat) bottom left:(CGFloat) left{
+- (void)setEnlargeEdgeWithTop:(CGFloat) top right:(CGFloat) right bottom:(CGFloat) bottom left:(CGFloat) left{
     objc_setAssociatedObject(self, &topNameKey, [NSNumber numberWithFloat:top], OBJC_ASSOCIATION_COPY_NONATOMIC);
     objc_setAssociatedObject(self, &rightNameKey, [NSNumber numberWithFloat:right], OBJC_ASSOCIATION_COPY_NONATOMIC);
     objc_setAssociatedObject(self, &bottomNameKey, [NSNumber numberWithFloat:bottom], OBJC_ASSOCIATION_COPY_NONATOMIC);

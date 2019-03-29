@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ColorMacro.h"
+#import "LayoutMacro.h"
+
 @interface YZPBaseCollectionCell : UICollectionViewCell
 
 ///用于作为背景图

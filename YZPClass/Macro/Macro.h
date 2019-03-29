@@ -25,7 +25,6 @@
 //主window
 #define MainWindow [UIApplication sharedApplication].windows[0]
 
-
 //预防Block循环引用
 #define WS(WeakSelf)  __weak __typeof(self)WeakSelf = self;
 

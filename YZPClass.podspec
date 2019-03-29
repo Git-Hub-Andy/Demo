@@ -10,11 +10,11 @@ s.author       = { "Andy" => "996901186@qq.com" }
 s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git', :tag => "1.0.7"}
 s.requires_arc = true
 
-s.public_header_files = 'YZPClass/YZPHeader.h'
+s.public_header_files = 'YZPClass/**/*.{h}'
 
 #包含Classes目录下的所有.h .m文件(多个目录用,分割)
 #'Classes/**/*.{h,m}'
-s.source_files = 'YZPClass/Foundation+/**/*.{h,m}','YZPClass/UIKit+/**/*.{h,m}','YZPClass/BaseClass/M/**/*.{h,m}','YZPClass/BaseClass/V/**/*.{h,m}','YZPClass/BaseClass/C/**/*.{h,m}','YZPClass/AppDelegate+/**/*.{h,m}','YZPClass/Macro/**/*.{h,m}','YZPClass/Tool/NetWork/**/*.{h,m}'
+s.source_files = 'YZPClass/Foundation+/**/*.{h,m}','YZPClass/UIKit+/**/*.{h,m}','YZPClass/Macro/**/*.{h}','YZPClass/BaseClass/M/**/*.{h,m}','YZPClass/BaseClass/V/**/*.{h,m}','YZPClass/BaseClass/C/**/*.{h,m}','YZPClass/AppDelegate+/**/*.{h,m}','YZPClass/Tool/NetWork/**/*.{h,m}'
 
 
 s.ios.dependency 'AFNetworking'

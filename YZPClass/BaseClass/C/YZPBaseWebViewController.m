@@ -32,7 +32,7 @@
     [super viewDidLoad];
     
     //注册JS方法
-    _userContentController =[[WKUserContentController alloc]init];
+    _userContentController = [[WKUserContentController alloc]init];
     [_userContentController addScriptMessageHandler:self name:@"clickUser"];
     
     //配置环境
@@ -40,7 +40,7 @@
     configuration.userContentController = _userContentController;
     
     //WebView
-    _webView = [[WKWebView alloc]initWithFrame:CGRectMake(0, 20, Screen_Width, Screen_Height-20) configuration:configuration];
+    _webView = [[WKWebView alloc]initWithFrame:self.view.bounds configuration:configuration];
     _webView.UIDelegate = self;
     _webView.navigationDelegate = self;
     //    NSString *str = [NSString stringWithFormat:@"%@index.html?token=%@",H5HTTPHEADER,[[NSUserDefaults standardUserDefaults] objectForKey:@"Token"]];

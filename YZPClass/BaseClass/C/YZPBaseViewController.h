@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UINavigationController+FDFullscreenPopGesture.h"
 #import "MJRefresh.h"
+#import "Macro.h"
+#import "ImageMacro.h"
 
 @interface YZPBaseViewController : UIViewController
 

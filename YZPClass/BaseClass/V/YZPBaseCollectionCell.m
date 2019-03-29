@@ -69,7 +69,7 @@
 
 - (UILabel *)contentLabel{
     if (!_contentLabel){
-        self.contentLabel = [UILabel new];
+        _contentLabel = [UILabel new];
         _contentLabel.textAlignment = NSTextAlignmentLeft;
         _contentLabel.textColor = Color_Cell_ContextLabel_Text;
         _contentLabel.font = FontSize(13);
@@ -80,7 +80,7 @@
 
 - (UILabel *)timeLabel{
     if (!_timeLabel){
-        self.timeLabel = [UILabel new];
+        _timeLabel = [UILabel new];
         _timeLabel.textAlignment = NSTextAlignmentRight;
         _timeLabel.textColor = Color_Cell_TitleLabel_Text;
         _timeLabel.font = FontSize(13);

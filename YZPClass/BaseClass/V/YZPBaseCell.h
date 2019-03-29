@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "ColorMacro.h"
+#import "LayoutMacro.h"
+
 @interface YZPBaseCell : UITableViewCell
 
 @property(nonatomic,strong)NSIndexPath *cellIndexPath;

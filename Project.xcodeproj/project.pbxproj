@@ -116,7 +116,6 @@
 		04A4CF4421C0D11D006BD945 /* AppDelegate+VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+VC.h"; sourceTree = "<group>"; };
 		04A4CF4521C0D11D006BD945 /* AppDelegate+VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+VC.m"; sourceTree = "<group>"; };
 		04A4CF4721C0D11D006BD945 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
-		04A4CF4821C0D11D006BD945 /* URLHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHead.h; sourceTree = "<group>"; };
 		04A4CF4921C0D11D006BD945 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04A4CF4A21C0D11D006BD945 /* TheEnumHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheEnumHeader.h; sourceTree = "<group>"; };
 		04A4CF4B21C0D11D006BD945 /* ImageMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMacro.h; sourceTree = "<group>"; };
@@ -222,7 +221,6 @@
 		04A4CFC421C0D11D006BD945 /* GuidePagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePagesView.h; sourceTree = "<group>"; };
 		04A4CFC521C0D11D006BD945 /* GuidePagesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePagesHelper.h; sourceTree = "<group>"; };
 		04A4CFC621C0D11D006BD945 /* GuidePagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePagesView.m; sourceTree = "<group>"; };
-		04A4D00A21C0D41C006BD945 /* YZPHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPHeader.h; sourceTree = "<group>"; };
 		4A9F617B8DD73AECB4854DA0 /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project/Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		6A6E09AD224B8A2F002A9013 /* YZPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPHeader.h; sourceTree = "<group>"; };
 		A1020578214CB5F700EB3750 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
@@ -281,14 +279,14 @@
 			children = (
 				04A4CF2721C0D11D006BD945 /* NSURL+Category.h */,
 				04A4CF2821C0D11D006BD945 /* NSString+Extension.h */,
-				04A4CF2921C0D11D006BD945 /* NSDate+Extension.h */,
-				04A4CF2A21C0D11D006BD945 /* NSDictionary+Category.h */,
+				04A4CF2E21C0D11D006BD945 /* NSString+Extension.m */,
+				04A4CF3021C0D11D006BD945 /* NSUserDefaults+Category.h */,
 				04A4CF2B21C0D11D006BD945 /* NSUserDefaults+Category.m */,
 				04A4CF2C21C0D11D006BD945 /* NSURL+Category.m */,
+				04A4CF2921C0D11D006BD945 /* NSDate+Extension.h */,
 				04A4CF2D21C0D11D006BD945 /* NSDate+Extension.m */,
-				04A4CF2E21C0D11D006BD945 /* NSString+Extension.m */,
+				04A4CF2A21C0D11D006BD945 /* NSDictionary+Category.h */,
 				04A4CF2F21C0D11D006BD945 /* NSDictionary+Category.m */,
-				04A4CF3021C0D11D006BD945 /* NSUserDefaults+Category.h */,
 			);
 			path = "Foundation+";
 			sourceTree = "<group>";
@@ -306,8 +304,8 @@
 		04A4CF3221C0D11D006BD945 /* M */ = {
 			isa = PBXGroup;
 			children = (
-				04A4CF3321C0D11D006BD945 /* YZPBaseModel.m */,
 				04A4CF3421C0D11D006BD945 /* YZPBaseModel.h */,
+				04A4CF3321C0D11D006BD945 /* YZPBaseModel.m */,
 			);
 			path = M;
 			sourceTree = "<group>";
@@ -349,12 +347,10 @@
 			isa = PBXGroup;
 			children = (
 				04A4CF4721C0D11D006BD945 /* Macro.h */,
-				04A4CF4821C0D11D006BD945 /* URLHead.h */,
 				04A4CF4A21C0D11D006BD945 /* TheEnumHeader.h */,
 				04A4CF4B21C0D11D006BD945 /* ImageMacro.h */,
 				04A4CF4C21C0D11D006BD945 /* ColorMacro.h */,
 				04A4CF4D21C0D11D006BD945 /* LayoutMacro.h */,
-				04A4D00A21C0D41C006BD945 /* YZPHeader.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -363,25 +359,25 @@
 			isa = PBXGroup;
 			children = (
 				04A4CF4F21C0D11D006BD945 /* UILabel+Compute.h */,
+				04A4CF5A21C0D11D006BD945 /* UILabel+Compute.m */,
+				04A4CF5921C0D11D006BD945 /* UIView+SubView.h */,
 				04A4CF5021C0D11D006BD945 /* UIView+SubView.m */,
 				04A4CF5121C0D11D006BD945 /* UITableView+EmptyData.h */,
+				04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */,
 				04A4CF5221C0D11D006BD945 /* UIImage+Category.m */,
-				04A4CF5321C0D11D006BD945 /* UIViewController+Category.h */,
 				04A4CF5421C0D11D006BD945 /* UITabBar+Category.m */,
+				04A4CF6221C0D11D006BD945 /* UIButton+Category.h */,
 				04A4CF5521C0D11D006BD945 /* UIButton+Category.m */,
 				04A4CF5621C0D11D006BD945 /* UIColor+Category.h */,
-				04A4CF5721C0D11D006BD945 /* UIView+Category.m */,
-				04A4CF5821C0D11D006BD945 /* UIView+FontSize.m */,
-				04A4CF5921C0D11D006BD945 /* UIView+SubView.h */,
-				04A4CF5A21C0D11D006BD945 /* UILabel+Compute.m */,
+				04A4CF6021C0D11D006BD945 /* UIColor+Category.m */,
+				04A4CF5321C0D11D006BD945 /* UIViewController+Category.h */,
 				04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */,
 				04A4CF5C21C0D11D006BD945 /* UITabBar+Category.h */,
 				04A4CF5D21C0D11D006BD945 /* UIImage+Category.h */,
-				04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */,
 				04A4CF5F21C0D11D006BD945 /* UIView+FontSize.h */,
-				04A4CF6021C0D11D006BD945 /* UIColor+Category.m */,
+				04A4CF5821C0D11D006BD945 /* UIView+FontSize.m */,
 				04A4CF6121C0D11D006BD945 /* UIView+Category.h */,
-				04A4CF6221C0D11D006BD945 /* UIButton+Category.h */,
+				04A4CF5721C0D11D006BD945 /* UIView+Category.m */,
 			);
 			path = "UIKit+";
 			sourceTree = "<group>";
@@ -1076,6 +1072,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuiFaKeJi.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1093,6 +1090,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Project/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Project/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HuiFaKeJi.Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";

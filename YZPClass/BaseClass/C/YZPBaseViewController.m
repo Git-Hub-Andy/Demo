@@ -179,7 +179,7 @@
 
 //耦合视图层的请求
 - (void)POST:(NSString *)url parameters:(NSDictionary *)parameters success:(void(^)(NSDictionary*dic))success fail:(void(^)(NSError*error))fail sendView:(UIView *)sendView animSuperView:(UIView *)animSuperView animated:(BOOL)animated{
-    WS(weakSelf)
+//    WS(weakSelf)
     
 //    [NetWork POST:url parameters:parameters success:^(NSDictionary *dic) {
 //        

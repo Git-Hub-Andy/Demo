@@ -90,6 +90,6 @@
 
 /**显示成功提示*/
 - (void)showMessage:(NSString *)message{
-    [self.view showToastMsg:message];
+//    [self.view showToastMsg:message];
 }
 @end
