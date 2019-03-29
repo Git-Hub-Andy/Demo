@@ -1,10 +1,3 @@
-//
-//  UIView+SubView.m
-//  LiveTest
-//
-//  Created by 任强宾 on 16/8/16.
-//  Copyright © 2016年 NeiQuan. All rights reserved.
-//
 
 #import "UIView+SubView.h"
 #import <objc/runtime.h>

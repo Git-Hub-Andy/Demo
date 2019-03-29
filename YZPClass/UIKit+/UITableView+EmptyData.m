@@ -1,10 +1,3 @@
-//
-//  UITableView+EmptyData.m
-//  FunyAlley
-//
-//  Created by 袁志浦 on 2018/8/17.
-//  Copyright © 2018年 Daniel. All rights reserved.
-//
 
 #import "UITableView+EmptyData.h"
 

@@ -143,7 +143,9 @@
 				04A4CF5021C0D11D006BD945 /* UIView+SubView.m */,
 				04A4CF5121C0D11D006BD945 /* UITableView+EmptyData.h */,
 				04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */,
+				04A4CF5D21C0D11D006BD945 /* UIImage+Category.h */,
 				04A4CF5221C0D11D006BD945 /* UIImage+Category.m */,
+				04A4CF5C21C0D11D006BD945 /* UITabBar+Category.h */,
 				04A4CF5421C0D11D006BD945 /* UITabBar+Category.m */,
 				04A4CF6221C0D11D006BD945 /* UIButton+Category.h */,
 				04A4CF5521C0D11D006BD945 /* UIButton+Category.m */,
@@ -151,8 +153,6 @@
 				04A4CF6021C0D11D006BD945 /* UIColor+Category.m */,
 				04A4CF5321C0D11D006BD945 /* UIViewController+Category.h */,
 				04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */,
-				04A4CF5C21C0D11D006BD945 /* UITabBar+Category.h */,
-				04A4CF5D21C0D11D006BD945 /* UIImage+Category.h */,
 				04A4CF6121C0D11D006BD945 /* UIView+Category.h */,
 				04A4CF5721C0D11D006BD945 /* UIView+Category.m */,
 			);

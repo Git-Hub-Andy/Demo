@@ -1,15 +1,7 @@
-//
-//  UIView+Category.m
-//  TheProject
-//
-//  Created by 袁志浦 on 2016/11/17.
-//  Copyright © 2016年 北京惠发科技有限公司. All rights reserved.
-//
 
 #import "UIView+Category.h"
 
 @implementation UIView (MakeCornerRadius)
-
 
 - (void)setIsRound:(BOOL)isRound{
     if (self.bounds.size.height==self.bounds.size.width) {

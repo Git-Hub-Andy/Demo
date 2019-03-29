@@ -1,10 +1,3 @@
-//
-//  UIButton+Category.m
-//  TheProject
-//
-//  Created by 袁志浦 on 16/7/15.
-//  Copyright © 2016年 北京惠发科技有限公司. All rights reserved.
-//
 
 #import "UIButton+Category.h"
 

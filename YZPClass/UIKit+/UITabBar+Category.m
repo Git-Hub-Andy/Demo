@@ -1,10 +1,4 @@
-//
-//  UITabBar+Category.m
-//  TheProject
-//
-//  Created by 袁志浦 on 16/7/14.
-//  Copyright © 2016年 北京惠发科技有限公司. All rights reserved.
-//
+
 #define TabbarItemNums 5.0    //tabbar的数量 如果是5个设置为5.0
 
 #define BadgeViewTag 88888

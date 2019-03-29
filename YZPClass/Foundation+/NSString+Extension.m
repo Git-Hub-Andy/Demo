@@ -1,10 +1,3 @@
-//
-//  NSString+.m
-//  Extension
-//
-//  Created by YuanZhiPu on 15/11/16.
-//  Copyright © 2015年 NeiQuan. All rights reserved.
-//
 
 #import "NSString+Extension.h"
 
