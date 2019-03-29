@@ -5,7 +5,7 @@
 
 - (NSDictionary *)queryParams{
     if(!self.query) {
-        return  @{};
+        return @{};
     }
     NSMutableDictionary *ret = [NSMutableDictionary dictionary];
     NSArray *keyValuePairs = [self.query componentsSeparatedByString:@"&"];
