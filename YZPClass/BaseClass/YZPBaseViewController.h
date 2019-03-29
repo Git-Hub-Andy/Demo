@@ -10,7 +10,6 @@
 
 #import <AFNetworking/AFNetworking.h>
 #import <MJRefresh/MJRefresh.h>
-#import <UINavigationController+FDFullscreenPopGesture.h>
 
 @interface YZPBaseViewController : UIViewController
 
