@@ -23,7 +23,6 @@
 		04A4CFD621C0D11D006BD945 /* UITabBar+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5421C0D11D006BD945 /* UITabBar+Category.m */; };
 		04A4CFD721C0D11D006BD945 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5521C0D11D006BD945 /* UIButton+Category.m */; };
 		04A4CFD821C0D11D006BD945 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5721C0D11D006BD945 /* UIView+Category.m */; };
-		04A4CFD921C0D11D006BD945 /* UIView+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5821C0D11D006BD945 /* UIView+FontSize.m */; };
 		04A4CFDA21C0D11D006BD945 /* UILabel+Compute.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5A21C0D11D006BD945 /* UILabel+Compute.m */; };
 		04A4CFDB21C0D11D006BD945 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */; };
 		04A4CFDC21C0D11D006BD945 /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */; };
@@ -127,14 +126,12 @@
 		04A4CF5521C0D11D006BD945 /* UIButton+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
 		04A4CF5621C0D11D006BD945 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
 		04A4CF5721C0D11D006BD945 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
-		04A4CF5821C0D11D006BD945 /* UIView+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontSize.m"; sourceTree = "<group>"; };
 		04A4CF5921C0D11D006BD945 /* UIView+SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SubView.h"; sourceTree = "<group>"; };
 		04A4CF5A21C0D11D006BD945 /* UILabel+Compute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Compute.m"; sourceTree = "<group>"; };
 		04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
 		04A4CF5C21C0D11D006BD945 /* UITabBar+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Category.h"; sourceTree = "<group>"; };
 		04A4CF5D21C0D11D006BD945 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+EmptyData.m"; sourceTree = "<group>"; };
-		04A4CF5F21C0D11D006BD945 /* UIView+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontSize.h"; sourceTree = "<group>"; };
 		04A4CF6021C0D11D006BD945 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		04A4CF6121C0D11D006BD945 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
 		04A4CF6221C0D11D006BD945 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
@@ -369,8 +366,6 @@
 				04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */,
 				04A4CF5C21C0D11D006BD945 /* UITabBar+Category.h */,
 				04A4CF5D21C0D11D006BD945 /* UIImage+Category.h */,
-				04A4CF5F21C0D11D006BD945 /* UIView+FontSize.h */,
-				04A4CF5821C0D11D006BD945 /* UIView+FontSize.m */,
 				04A4CF6121C0D11D006BD945 /* UIView+Category.h */,
 				04A4CF5721C0D11D006BD945 /* UIView+Category.m */,
 			);
@@ -908,7 +903,6 @@
 				04A4CFD421C0D11D006BD945 /* UIView+SubView.m in Sources */,
 				04A4CFF621C0D11D006BD945 /* Extend_Description.m in Sources */,
 				04A4CFD021C0D11D006BD945 /* YZPBaseCollectionCell.m in Sources */,
-				04A4CFD921C0D11D006BD945 /* UIView+FontSize.m in Sources */,
 				04A4CFFC21C0D11D006BD945 /* SDBrowserImageView.m in Sources */,
 				04A4CFF421C0D11D006BD945 /* SheetView.m in Sources */,
 				04A4CFEA21C0D11D006BD945 /* NetworkCache.m in Sources */,

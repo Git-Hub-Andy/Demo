@@ -106,7 +106,7 @@
     
     //统一设置导航栏返回按钮(设置后系统提供的侧滑pop会失效)
     if (self.navigationController.childViewControllers.count > 1){
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:Image_NaviBar_Left_Back style:UIBarButtonItemStylePlain target:self action:@selector(handlePop)];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@""] style:UIBarButtonItemStylePlain target:self action:@selector(handlePop)];
         self.hidesBottomBarWhenPushed = YES;
     }
     

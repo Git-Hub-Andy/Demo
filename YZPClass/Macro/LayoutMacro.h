@@ -21,15 +21,7 @@
 
 #define TabBarHeight (StatusBarHeight > 20 ? 83 : 49)
 
-#define TopHeight (StatusBarHeight + NavBarHeight) //整个导航栏高度
-
-//判断是否是iphone5的设备
-#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
-
-//判断是否是iphone4的设备
-#define iPhone4  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
-//=======================判断设备类型=======================
-
+#define TopHeight (StatusBarHeight + NavBarHeight) 
 
 //不同屏幕尺寸字体适配（375.0，667.0是因为效果图为IPHONE6 如果不是则根据实际情况修改）
 #define kScreenWidthRatio  (Screen_Width/375.0)
@@ -42,17 +34,12 @@
 
 #define FontSize(fontSize)   [UIFont systemFontOfSize:(fontSize*kScreenWidthRatio)]
 
-#define UITextViewEnable 1
+//判断是否是iphone5的设备
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
 
-#define UITextFieldEnable 1
-
-#define UIButtonEnable 1
-
-#define UILabelEnable 1
-
-#define ISCustomFontName 1
-
-#define CustomFontName @"FZLBJW--GB1-0"
+//判断是否是iphone4的设备
+#define iPhone4  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+//=======================判断设备类型=======================
 
 
 #endif /* LayoutMacro_h */
