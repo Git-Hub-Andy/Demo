@@ -67,7 +67,6 @@ static char leftNameKey;
         }else{
             int seconds = timeout;
             NSString *strTime = [NSString stringWithFormat:@"%.2d", seconds];
-            NSLOG(@"%@",strTime);
             dispatch_async(dispatch_get_main_queue(), ^{
                 //设置界面的按钮显示 根据自己需求设置
                 NSString *time = [NSString stringWithFormat:@"(%@秒)",strTime];

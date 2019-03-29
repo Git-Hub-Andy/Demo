@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <YYCache/YYCache.h>
 // 过期提醒
 #define PPDeprecated(instead) NS_DEPRECATED(2_0, 2_0, 2_0, 2_0, instead)
 
