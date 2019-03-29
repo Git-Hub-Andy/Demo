@@ -13,7 +13,6 @@
 		04A4CFCA21C0D11D006BD945 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF2E21C0D11D006BD945 /* NSString+Extension.m */; };
 		04A4CFCB21C0D11D006BD945 /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF2F21C0D11D006BD945 /* NSDictionary+Category.m */; };
 		04A4CFCC21C0D11D006BD945 /* YZPBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3321C0D11D006BD945 /* YZPBaseModel.m */; };
-		04A4CFCD21C0D11D006BD945 /* YZPBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3621C0D11D006BD945 /* YZPBaseWebViewController.m */; };
 		04A4CFCE21C0D11D006BD945 /* YZPBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3721C0D11D006BD945 /* YZPBaseNavViewController.m */; };
 		04A4CFCF21C0D11D006BD945 /* YZPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3B21C0D11D006BD945 /* YZPBaseViewController.m */; };
 		04A4CFD021C0D11D006BD945 /* YZPBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF3D21C0D11D006BD945 /* YZPBaseCollectionCell.m */; };
@@ -103,11 +102,9 @@
 		04A4CF3021C0D11D006BD945 /* NSUserDefaults+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Category.h"; sourceTree = "<group>"; };
 		04A4CF3321C0D11D006BD945 /* YZPBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseModel.m; sourceTree = "<group>"; };
 		04A4CF3421C0D11D006BD945 /* YZPBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseModel.h; sourceTree = "<group>"; };
-		04A4CF3621C0D11D006BD945 /* YZPBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseWebViewController.m; sourceTree = "<group>"; };
 		04A4CF3721C0D11D006BD945 /* YZPBaseNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseNavViewController.m; sourceTree = "<group>"; };
 		04A4CF3821C0D11D006BD945 /* YZPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseViewController.h; sourceTree = "<group>"; };
 		04A4CF3921C0D11D006BD945 /* YZPBaseNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseNavViewController.h; sourceTree = "<group>"; };
-		04A4CF3A21C0D11D006BD945 /* YZPBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseWebViewController.h; sourceTree = "<group>"; };
 		04A4CF3B21C0D11D006BD945 /* YZPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseViewController.m; sourceTree = "<group>"; };
 		04A4CF3D21C0D11D006BD945 /* YZPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCollectionCell.m; sourceTree = "<group>"; };
 		04A4CF3E21C0D11D006BD945 /* YZPBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPBaseCell.h; sourceTree = "<group>"; };
@@ -313,8 +310,6 @@
 		04A4CF3521C0D11D006BD945 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				04A4CF3A21C0D11D006BD945 /* YZPBaseWebViewController.h */,
-				04A4CF3621C0D11D006BD945 /* YZPBaseWebViewController.m */,
 				04A4CF3921C0D11D006BD945 /* YZPBaseNavViewController.h */,
 				04A4CF3721C0D11D006BD945 /* YZPBaseNavViewController.m */,
 				04A4CF3821C0D11D006BD945 /* YZPBaseViewController.h */,
@@ -916,7 +911,6 @@
 				04A4CFD921C0D11D006BD945 /* UIView+FontSize.m in Sources */,
 				04A4CFFC21C0D11D006BD945 /* SDBrowserImageView.m in Sources */,
 				04A4CFF421C0D11D006BD945 /* SheetView.m in Sources */,
-				04A4CFCD21C0D11D006BD945 /* YZPBaseWebViewController.m in Sources */,
 				04A4CFEA21C0D11D006BD945 /* NetworkCache.m in Sources */,
 				A113287121A3DADC00E0597E /* TestTableViewCell.m in Sources */,
 				04A4CFCA21C0D11D006BD945 /* NSString+Extension.m in Sources */,
