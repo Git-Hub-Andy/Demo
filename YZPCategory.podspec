@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "YZPCategory"
-  s.version      = "1.0.21"
+  s.version      = "1.0.22"
   s.platform     = :ios, "9.0"
   s.summary      = "简介"
   s.homepage     = "https://github.com/Git-Hub-Andy/Demo.git"
   s.social_media_url = 'https://github.com/Git-Hub-Andy'
   s.license      = "MIT"
   s.author       = { "Andy" => "996901186@qq.com" }
-  s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git',   :tag => "1.0.21"}
+  s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git',   :tag => "1.0.22"}
   s.requires_arc = true
 
   s.public_header_files = 'YZPClass/YZPHeader.h'
@@ -23,6 +23,12 @@ Pod::Spec.new do |s|
   #包含Classes目录下的所有.h .m文件(多个目录用,分割)
   #'Classes/**/*.{h,m}'
   ss.source_files = 'YZPClass/UIKit+/**/*.{h,m}'
+  end
+
+  s.subspec 'BaseClass' do |ss|
+  #包含Classes目录下的所有.h .m文件(多个目录用,分割)
+  #'Classes/**/*.{h,m}'
+  ss.source_files = 'YZPClass/BaseClass/**/*.{h,m}'
   end
 
   s.ios.dependency 'AFNetworking'
