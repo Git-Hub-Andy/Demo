@@ -45,4 +45,25 @@
  *  @return 字符串
  */
 + (NSString *)timeStringWithInterval:(NSTimeInterval)time;
+
++ (NSInteger)year;
+
++ (NSInteger)month;
+
++ (NSInteger)day;
+
++ (NSInteger)hour;
+
++ (NSInteger)minute;
+
++ (NSInteger)second;
+
++ (NSInteger)weekday;
+
++ (NSInteger)yearOfChinese;
+
++ (NSInteger)monthOfChinese;
+
++ (NSInteger)dayOfChinese;
+
 @end

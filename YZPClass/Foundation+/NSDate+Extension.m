@@ -90,4 +90,65 @@
     }
     return string;
 }
+
++ (NSInteger)year{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.year;
+}
+
++ (NSInteger)month{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.month;
+}
+
++ (NSInteger)day{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.day;
+}
+
++ (NSInteger)hour{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.hour;
+}
+
++ (NSInteger)minute{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.minute;
+}
+
++ (NSInteger)second{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.second;
+}
+
++ (NSInteger)weekday{
+    //1是周日2是周一
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierGregorian];
+    return components.weekday;
+}
+
++ (NSInteger)yearOfChinese{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierChinese];
+    return components.year;
+}
+
++ (NSInteger)monthOfChinese{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierChinese];
+    return components.month;
+}
+
++ (NSInteger)dayOfChinese{
+    NSDateComponents *components = [NSDate components:NSCalendarIdentifierChinese];
+    return components.day;
+}
+
++ (NSDateComponents *)components:(NSString *)calendarIdentifier{
+    NSCalendar *gregorian = [[NSCalendar alloc]initWithCalendarIdentifier:calendarIdentifier];    
+    // 获取当前日期
+    NSDate* dt = [NSDate date];
+    // 定义一个时间字段的旗标，指定将会获取指定年、月、日、时、分、秒的信息
+    unsigned unitFlags = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond | NSCalendarUnitWeekday;
+    NSDateComponents *components = [gregorian components:unitFlags fromDate:dt];
+    return components;
+}
 @end

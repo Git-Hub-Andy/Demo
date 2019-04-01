@@ -34,6 +34,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[UITabBar appearance] setTranslucent:NO];
+    
     self.tabBarController.delegate = self;
     [self initTabbar];
     

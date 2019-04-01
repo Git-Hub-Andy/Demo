@@ -89,6 +89,11 @@
 		6AAB072D2251B8C100713FF9 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		6AAB072E2251B8C100713FF9 /* InterfaceConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceConst.m; sourceTree = "<group>"; };
 		6AAB072F2251B8C100713FF9 /* NetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCache.h; sourceTree = "<group>"; };
+		6AAB07342251E55900713FF9 /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		6AAB07352251E55900713FF9 /* TheEnumHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheEnumHeader.h; sourceTree = "<group>"; };
+		6AAB07362251E55900713FF9 /* ImageMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMacro.h; sourceTree = "<group>"; };
+		6AAB07372251E55900713FF9 /* ColorMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		6AAB07382251E55900713FF9 /* LayoutMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutMacro.h; sourceTree = "<group>"; };
 		6ACA32B0224DF7E60016E7A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ACA32B1224DF7E60016E7A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6ACA32B7224E1AFE0016E7A6 /* YZPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCollectionCell.m; sourceTree = "<group>"; };
@@ -143,12 +148,12 @@
 		04A4CF2521C0D11D006BD945 /* YZPClass */ = {
 			isa = PBXGroup;
 			children = (
-				6AAB07272251B88A00713FF9 /* New Group */,
 				6A6E09AD224B8A2F002A9013 /* YZPHeader.h */,
 				6ACA32B6224E1AFE0016E7A6 /* BaseClass */,
 				04A4CF2621C0D11D006BD945 /* Foundation+ */,
 				04A4CF4E21C0D11D006BD945 /* UIKit+ */,
 				6AAB07282251B8A700713FF9 /* Tool */,
+				6AAB07332251E55900713FF9 /* Macro */,
 			);
 			path = YZPClass;
 			sourceTree = SOURCE_ROOT;
@@ -197,13 +202,6 @@
 			path = "UIKit+";
 			sourceTree = "<group>";
 		};
-		6AAB07272251B88A00713FF9 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "New Group";
-			sourceTree = "<group>";
-		};
 		6AAB07282251B8A700713FF9 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +221,18 @@
 				6AAB072E2251B8C100713FF9 /* InterfaceConst.m */,
 			);
 			path = NetWork;
+			sourceTree = "<group>";
+		};
+		6AAB07332251E55900713FF9 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB07342251E55900713FF9 /* Macro.h */,
+				6AAB07352251E55900713FF9 /* TheEnumHeader.h */,
+				6AAB07362251E55900713FF9 /* ImageMacro.h */,
+				6AAB07372251E55900713FF9 /* ColorMacro.h */,
+				6AAB07382251E55900713FF9 /* LayoutMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		6ACA32B6224E1AFE0016E7A6 /* BaseClass */ = {

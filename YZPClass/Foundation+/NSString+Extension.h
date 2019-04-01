@@ -23,4 +23,5 @@
 - (NSMutableDictionary *)getURLParameters;
 
 - (BOOL)isNull;
+
 @end

@@ -29,10 +29,10 @@ Pod::Spec.new do |s|
   ss.source_files = 'YZPClass/UIKit+/**/*.{h,m}'
   end
 
-  s.subspec 'BaseClass' do |ss|
-   #包含Classes目录下的所有.h .m文件(多个目录用,分割)
-   #'Classes/**/*.{h,m}'
-  ss.source_files = 'YZPClass/BaseClass/**/*.{h,m}'
+  s.subspec 'Macro' do |ss|
+  #包含Classes目录下的所有.h .m文件(多个目录用,分割)
+  #'Classes/**/*.{h,m}'
+  ss.source_files = 'YZPClass/Macro/**/*.{h,m}'
   end
 
   s.subspec 'Tool' do |ss|

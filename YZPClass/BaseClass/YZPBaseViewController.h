@@ -10,16 +10,13 @@
 
 #import <AFNetworking/AFNetworking.h>
 #import <MJRefresh/MJRefresh.h>
-#import "UINavigationController+FDFullscreenPopGesture.h"
 
 @interface YZPBaseViewController : UIViewController
 
 //导航条底部的黑线（系统和自定义）隐藏和颜色的设置
-@property (nonatomic, assign) BOOL naviBarSystemLine_hidden;
+@property (nonatomic, assign) BOOL navBarSystemLineHidden;
 
-@property (nonatomic, assign) BOOL naviBarCustomLine_hidden;
-
-@property (nonatomic, strong) UIColor *naviBarCustomLine_color;
+@property (nonatomic, strong) UIColor *navBarLineColor;
 
 @property (nonatomic, strong) NSMutableArray *dataSourceArray;
 

@@ -86,23 +86,23 @@
     [super viewWillDisappear:animated];
     [self.navigationController.navigationBar endEditing:YES];
     [self.view endEditing:YES];
+    
 }
 
 //基础配置
-- (void)baseConfigure
-{
+- (void)baseConfigure{
     self.view.backgroundColor = [UIColor whiteColor];
+
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+
     //设置导航底线相关属性
-    self.naviBarSystemLine_hidden = YES;
-    self.naviBarCustomLine_hidden = NO;
+    self.navBarSystemLineHidden = NO;
     
-//    self.fd_interactivePopDisabled = YES;  //全屏侧滑设置
-    
-    //self.edgesForExtendedLayout = UIRectEdgeNone;
-    //self.extendedLayoutIncludesOpaqueBars = YES;
-    //self.navigationController.navigationBar.translucent = YES;
-    //self.tabBarController.tabBar.translucent = YES;
-    //self.automaticallyAdjustsScrollViewInsets = YES;
+    //(默认使用键盘管理者)
+    self.isUseKeyboardManager = YES;
+
+    //全屏侧滑设置
+    //self.fd_interactivePopDisabled = YES;
     
     //统一设置导航栏返回按钮(设置后系统提供的侧滑pop会失效)
     if (self.navigationController.childViewControllers.count > 1){
@@ -110,7 +110,6 @@
         self.hidesBottomBarWhenPushed = YES;
     }
     
-    self.isUseKeyboardManager = YES;  //(默认使用键盘管理者)
 }
 
 #pragma mark - SubClass Override
@@ -361,34 +360,9 @@
     //获取到导航底部的黑线控件
     UIImageView *bottomLineImageView = [self findHairlineImageViewUnder:self.navigationController.navigationBar];
     //默认显示黑线
-    bottomLineImageView.hidden = NO;
-    
-    if (_naviBarSystemLine_hidden){
-        bottomLineImageView.hidden = YES;
-    }
-    
-    //自定义底线
-    UIView *tabBarLineView = [self.navigationController.navigationBar viewWithTag:10001];
-    
-    tabBarLineView.backgroundColor = _naviBarCustomLine_color;
-    
-    if (!_naviBarCustomLine_hidden){
-        _naviBarSystemLine_hidden = YES;
-        bottomLineImageView.hidden = YES;
-        
-        if (!tabBarLineView){
-            tabBarLineView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.navigationController.navigationBar.mj_w, 64)];
-            tabBarLineView.tag = 10001;
-            tabBarLineView.alpha = 0.8;
-            [self.navigationController.navigationBar addSubview:tabBarLineView];
-        }
-        tabBarLineView.hidden = NO;
-        tabBarLineView.backgroundColor = _naviBarCustomLine_color;
-    }else{
-        if (tabBarLineView){
-            tabBarLineView.hidden = YES;
-            tabBarLineView.backgroundColor = _naviBarCustomLine_color;
-        }
+    bottomLineImageView.hidden = self.navBarSystemLineHidden;
+    if (self.navBarLineColor) {
+        bottomLineImageView.backgroundColor = self.navBarLineColor;
     }
 }
 
