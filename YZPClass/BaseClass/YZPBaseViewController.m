@@ -100,7 +100,6 @@
     
     //self.edgesForExtendedLayout = UIRectEdgeNone;
     //self.extendedLayoutIncludesOpaqueBars = YES;
-    //self.navigationController.navigationBar.translucent = YES;
     //self.tabBarController.tabBar.translucent = YES;
     //self.automaticallyAdjustsScrollViewInsets = YES;
     
