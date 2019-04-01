@@ -9,7 +9,7 @@ target 'Project' do
   pod 'TZImagePickerController'
   pod 'SDWebImage'
   pod 'SDCycleScrollView'
-  pod 'FDFullscreenPopGesture' #全屏侧滑返回
+#  pod 'FDFullscreenPopGesture' #全屏侧滑返回
   pod 'Masonry'                #自动布局
   pod 'FMDB'
   pod 'YYCache'

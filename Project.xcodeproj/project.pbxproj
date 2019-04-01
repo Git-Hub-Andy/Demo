@@ -21,6 +21,7 @@
 		04A4CFDB21C0D11D006BD945 /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5B21C0D11D006BD945 /* UIViewController+Category.m */; };
 		04A4CFDC21C0D11D006BD945 /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */; };
 		04A4CFDD21C0D11D006BD945 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF6021C0D11D006BD945 /* UIColor+Category.m */; };
+		6AAB07232251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB07222251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		6ACA32B2224DF7E60016E7A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B1224DF7E60016E7A6 /* AppDelegate.m */; };
 		6ACA32C3224E1AFE0016E7A6 /* YZPBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B7224E1AFE0016E7A6 /* YZPBaseCollectionCell.m */; };
 		6ACA32C4224E1AFE0016E7A6 /* YZPCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B8224E1AFE0016E7A6 /* YZPCollectionView.m */; };
@@ -77,6 +78,8 @@
 		04A4CF6221C0D11D006BD945 /* UIButton+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
 		4A9F617B8DD73AECB4854DA0 /* Pods-Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project/Pods-Project.release.xcconfig"; sourceTree = "<group>"; };
 		6A6E09AD224B8A2F002A9013 /* YZPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPHeader.h; sourceTree = "<group>"; };
+		6AAB07212251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "Pods/FDFullscreenPopGesture/FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = SOURCE_ROOT; };
+		6AAB07222251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "Pods/FDFullscreenPopGesture/FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = SOURCE_ROOT; };
 		6ACA32B0224DF7E60016E7A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ACA32B1224DF7E60016E7A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6ACA32B7224E1AFE0016E7A6 /* YZPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCollectionCell.m; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 		6ACA32B6224E1AFE0016E7A6 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB07212251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6AAB07222251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.m */,
 				6ACA32C1224E1AFE0016E7A6 /* YZPBaseNavViewController.h */,
 				6ACA32BA224E1AFE0016E7A6 /* YZPBaseNavViewController.m */,
 				6ACA32BC224E1AFE0016E7A6 /* YZPBaseViewController.h */,
@@ -381,7 +386,6 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Project/Pods-Project-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
@@ -398,7 +402,6 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
@@ -444,6 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AAB07232251B01300713FF9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				6ACA32C6224E1AFE0016E7A6 /* YZPBaseModel.m in Sources */,
 				6ACA32B2224DF7E60016E7A6 /* AppDelegate.m in Sources */,
 				A102057B214CB5F700EB3750 /* MineViewController.mm in Sources */,
