@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = "YZPClass"
-  s.version      = "1.0.28"
+  s.version      = "1.0.29"
   s.platform     = :ios, "9.0"
   s.summary      = "简介"
   s.homepage     = "https://github.com/Git-Hub-Andy/Demo.git"
   s.social_media_url = 'https://github.com/Git-Hub-Andy'
   s.license      = "MIT"
   s.author       = { "Andy" => "996901186@qq.com" }
-  s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git',   :tag => "1.0.28"}
+  s.source       = { :git => 'https://github.com/Git-Hub-Andy/Demo.git',   :tag => "1.0.29"}
   s.requires_arc = true
 
   s.public_header_files = 'YZPClass/YZPHeader.h'
@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit+' do |ss|
-  #包含Classes目录下的所有.h .m文件(多个目录用,分割)
-  #'Classes/**/*.{h,m}'
+   #包含Classes目录下的所有.h .m文件(多个目录用,分割)
+   #'Classes/**/*.{h,m}'
   ss.source_files = 'YZPClass/UIKit+/**/*.{h,m}'
   end
 
   s.subspec 'BaseClass' do |ss|
-  #包含Classes目录下的所有.h .m文件(多个目录用,分割)
-  #'Classes/**/*.{h,m}'
+   #包含Classes目录下的所有.h .m文件(多个目录用,分割)
+   #'Classes/**/*.{h,m}'
   ss.source_files = 'YZPClass/BaseClass/**/*.{h,m}'
   end
 

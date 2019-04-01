@@ -162,6 +162,8 @@
 		04A4CF4E21C0D11D006BD945 /* UIKit+ */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB07252251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.h */,
+				6AAB07242251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.m */,
 				04A4CF4F21C0D11D006BD945 /* UILabel+Compute.h */,
 				04A4CF5A21C0D11D006BD945 /* UILabel+Compute.m */,
 				04A4CF5921C0D11D006BD945 /* UIView+SubView.h */,
@@ -187,8 +189,6 @@
 		6ACA32B6224E1AFE0016E7A6 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				6AAB07252251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.h */,
-				6AAB07242251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.m */,
 				6ACA32C1224E1AFE0016E7A6 /* YZPBaseNavViewController.h */,
 				6ACA32BA224E1AFE0016E7A6 /* YZPBaseNavViewController.m */,
 				6ACA32BC224E1AFE0016E7A6 /* YZPBaseViewController.h */,
