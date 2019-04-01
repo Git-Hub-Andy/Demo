@@ -13,6 +13,10 @@ Pod::Spec.new do |s|
   s.public_header_files = 'YZPClass/YZPHeader.h'
   s.source_files = 'YZPClass/YZPHeader.h'
 
+# s.resource_bundles = {
+#   'YZPClass' => ['YZPClass/Assets/*.png']
+# }
+
   s.subspec 'Foundation+' do |ss|
     #包含Classes目录下的所有.h .m文件(多个目录用,分割)
     #'Classes/**/*.{h,m}'

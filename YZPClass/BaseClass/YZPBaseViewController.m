@@ -99,6 +99,10 @@
 //    self.fd_interactivePopDisabled = YES;  //全屏侧滑设置
     
     //self.edgesForExtendedLayout = UIRectEdgeNone;
+    //self.extendedLayoutIncludesOpaqueBars = YES;
+    //self.navigationController.navigationBar.translucent = YES;
+    //self.tabBarController.tabBar.translucent = YES;
+    //self.automaticallyAdjustsScrollViewInsets = YES;
     
     //统一设置导航栏返回按钮(设置后系统提供的侧滑pop会失效)
     if (self.navigationController.childViewControllers.count > 1){
@@ -171,7 +175,6 @@
 //
 //        fail(error);
 //    }];
-
 }
 
 //耦合视图层的请求

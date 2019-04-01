@@ -215,12 +215,12 @@
 		6AAB07292251B8C100713FF9 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB072D2251B8C100713FF9 /* Network.h */,
 				6AAB072A2251B8C100713FF9 /* Network.m */,
+				6AAB072F2251B8C100713FF9 /* NetworkCache.h */,
 				6AAB072B2251B8C100713FF9 /* NetworkCache.m */,
 				6AAB072C2251B8C100713FF9 /* InterfaceConst.h */,
-				6AAB072D2251B8C100713FF9 /* Network.h */,
 				6AAB072E2251B8C100713FF9 /* InterfaceConst.m */,
-				6AAB072F2251B8C100713FF9 /* NetworkCache.h */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
