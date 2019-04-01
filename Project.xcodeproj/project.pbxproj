@@ -22,6 +22,9 @@
 		04A4CFDC21C0D11D006BD945 /* UITableView+EmptyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF5E21C0D11D006BD945 /* UITableView+EmptyData.m */; };
 		04A4CFDD21C0D11D006BD945 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4CF6021C0D11D006BD945 /* UIColor+Category.m */; };
 		6AAB07262251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB07242251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		6AAB07302251B8C100713FF9 /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB072A2251B8C100713FF9 /* Network.m */; };
+		6AAB07312251B8C100713FF9 /* NetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB072B2251B8C100713FF9 /* NetworkCache.m */; };
+		6AAB07322251B8C100713FF9 /* InterfaceConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB072E2251B8C100713FF9 /* InterfaceConst.m */; };
 		6ACA32B2224DF7E60016E7A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B1224DF7E60016E7A6 /* AppDelegate.m */; };
 		6ACA32C3224E1AFE0016E7A6 /* YZPBaseCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B7224E1AFE0016E7A6 /* YZPBaseCollectionCell.m */; };
 		6ACA32C4224E1AFE0016E7A6 /* YZPCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA32B8224E1AFE0016E7A6 /* YZPCollectionView.m */; };
@@ -80,6 +83,12 @@
 		6A6E09AD224B8A2F002A9013 /* YZPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPHeader.h; sourceTree = "<group>"; };
 		6AAB07242251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		6AAB07252251B09F00713FF9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		6AAB072A2251B8C100713FF9 /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		6AAB072B2251B8C100713FF9 /* NetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkCache.m; sourceTree = "<group>"; };
+		6AAB072C2251B8C100713FF9 /* InterfaceConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceConst.h; sourceTree = "<group>"; };
+		6AAB072D2251B8C100713FF9 /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
+		6AAB072E2251B8C100713FF9 /* InterfaceConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterfaceConst.m; sourceTree = "<group>"; };
+		6AAB072F2251B8C100713FF9 /* NetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkCache.h; sourceTree = "<group>"; };
 		6ACA32B0224DF7E60016E7A6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6ACA32B1224DF7E60016E7A6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6ACA32B7224E1AFE0016E7A6 /* YZPBaseCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPBaseCollectionCell.m; sourceTree = "<group>"; };
@@ -134,10 +143,12 @@
 		04A4CF2521C0D11D006BD945 /* YZPClass */ = {
 			isa = PBXGroup;
 			children = (
+				6AAB07272251B88A00713FF9 /* New Group */,
 				6A6E09AD224B8A2F002A9013 /* YZPHeader.h */,
 				6ACA32B6224E1AFE0016E7A6 /* BaseClass */,
 				04A4CF2621C0D11D006BD945 /* Foundation+ */,
 				04A4CF4E21C0D11D006BD945 /* UIKit+ */,
+				6AAB07282251B8A700713FF9 /* Tool */,
 			);
 			path = YZPClass;
 			sourceTree = SOURCE_ROOT;
@@ -184,6 +195,34 @@
 				04A4CF5721C0D11D006BD945 /* UIView+Category.m */,
 			);
 			path = "UIKit+";
+			sourceTree = "<group>";
+		};
+		6AAB07272251B88A00713FF9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		6AAB07282251B8A700713FF9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB07292251B8C100713FF9 /* NetWork */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		6AAB07292251B8C100713FF9 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB072A2251B8C100713FF9 /* Network.m */,
+				6AAB072B2251B8C100713FF9 /* NetworkCache.m */,
+				6AAB072C2251B8C100713FF9 /* InterfaceConst.h */,
+				6AAB072D2251B8C100713FF9 /* Network.h */,
+				6AAB072E2251B8C100713FF9 /* InterfaceConst.m */,
+				6AAB072F2251B8C100713FF9 /* NetworkCache.h */,
+			);
+			path = NetWork;
 			sourceTree = "<group>";
 		};
 		6ACA32B6224E1AFE0016E7A6 /* BaseClass */ = {
@@ -454,13 +493,16 @@
 				04A4CFDD21C0D11D006BD945 /* UIColor+Category.m in Sources */,
 				04A4CFC921C0D11D006BD945 /* NSDate+Extension.m in Sources */,
 				6ACA32C5224E1AFE0016E7A6 /* YZPBaseNavViewController.m in Sources */,
+				6AAB07312251B8C100713FF9 /* NetworkCache.m in Sources */,
 				04A4CFD721C0D11D006BD945 /* UIButton+Category.m in Sources */,
 				04A4CFD821C0D11D006BD945 /* UIView+Category.m in Sources */,
 				A14FBBEC1F78D4A00063B3F7 /* MainTabBarController.m in Sources */,
 				A113286C21A3DAC600E0597E /* TestViewController.m in Sources */,
+				6AAB07322251B8C100713FF9 /* InterfaceConst.m in Sources */,
 				04A4CFDB21C0D11D006BD945 /* UIViewController+Category.m in Sources */,
 				6ACA32C7224E1AFE0016E7A6 /* YZPBaseCell.m in Sources */,
 				A14FBBEE1F78D4A00063B3F7 /* SweepViewController.m in Sources */,
+				6AAB07302251B8C100713FF9 /* Network.m in Sources */,
 				04A4CFDA21C0D11D006BD945 /* UILabel+Compute.m in Sources */,
 				04A4CFCB21C0D11D006BD945 /* NSDictionary+Category.m in Sources */,
 				04A4CFD421C0D11D006BD945 /* UIView+SubView.m in Sources */,

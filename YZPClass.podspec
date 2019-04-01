@@ -31,6 +31,12 @@ Pod::Spec.new do |s|
   ss.source_files = 'YZPClass/BaseClass/**/*.{h,m}'
   end
 
+  s.subspec 'Tool' do |ss|
+    ss.subspec 'NetWork' do |sss|
+    ss.source_files = 'YZPClass/Tool/NetWork/**/*.{h,m}'
+    end
+  end
+
   s.ios.dependency 'AFNetworking'
   s.ios.dependency 'MJExtension'
   s.ios.dependency 'UITableView+FDTemplateLayoutCell'
